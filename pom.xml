@@ -18,6 +18,7 @@
         <module>platform-boot</module>
         <module>platform-cache</module>
         <module>platform-log</module>
+        <module>platform-db</module>
     </modules>
 
     <properties>
