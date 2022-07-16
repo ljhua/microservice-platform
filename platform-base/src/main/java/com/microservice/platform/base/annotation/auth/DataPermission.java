@@ -58,7 +58,7 @@ public @interface DataPermission {
      *
      * @return
      */
-    String datePermissionType() default "";
+    String dataPermissionType() default "";
 
     /**
      * 自定义数据权限类型

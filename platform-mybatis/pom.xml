@@ -16,7 +16,39 @@
     <dependencies>
         <dependency>
             <groupId>com.microservice.platform</groupId>
+            <artifactId>platform-base</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.microservice.platform</groupId>
             <artifactId>platform-swagger</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.microservice.platform</groupId>
+            <artifactId>platform-boot</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.microservice.platform</groupId>
+            <artifactId>platform-cache</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-context</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+        </dependency>
+        <!-- Mybatis Plus代码生成工具 因不支持扩展自定义文件，暂时屏蔽-->
+        <!--        <dependency>-->
+        <!--            <groupId>com.baomidou</groupId>-->
+        <!--            <artifactId>mybatis-plus-generator</artifactId>-->
+        <!--        </dependency>-->
+        <!-- freemarker -->
+        <dependency>
+            <groupId>org.freemarker</groupId>
+            <artifactId>freemarker</artifactId>
         </dependency>
     </dependencies>
 

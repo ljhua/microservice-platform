@@ -15,6 +15,9 @@
         <module>platform-swagger</module>
         <module>platform-bom</module>
         <module>platform-base</module>
+        <module>platform-boot</module>
+        <module>platform-cache</module>
+        <module>platform-log</module>
     </modules>
 
     <properties>
