@@ -19,6 +19,8 @@
         <module>platform-cache</module>
         <module>platform-log</module>
         <module>platform-db</module>
+        <module>platform-code-generator</module>
+        <module>platform-cloud</module>
     </modules>
 
     <properties>
